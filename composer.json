@@ -5,7 +5,6 @@
     "keywords": [
         "infobip"
     ],
-    "homepage": "",
     "license": "Apache License 2.0",
     "require": {
         "php": ">=5.3.2",
