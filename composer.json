@@ -12,12 +12,6 @@
         "symfony/framework-bundle": "~2.3",
         "infobip/oneapi": "dev-master"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/infobip/oneapi-php"
-        }
-    ],
     "authors": [
         {
             "name": "Manuel Raya",

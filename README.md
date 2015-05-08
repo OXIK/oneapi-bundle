@@ -1,4 +1,4 @@
-# OneApiBundle for Symfony2
+# OneApiBundle for Symfony2 0.0.1
 ## What is OneApiBundle?
 It's a small symfony bundle that acts like a bridge between [infobip OneApi](https://github.com/infobip/oneapi-php) and your symfony project.
 
@@ -14,7 +14,8 @@ Add this to your `composer.json` file.
     {
         "require": {
             ...
-            "oxik/oneapibundle": "dev-master"
+            "infobip/oneapi": "dev-master"
+            "oxik/oneapibundle": "0.0.1"
         }
     }
 ```
