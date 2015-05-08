@@ -20,14 +20,12 @@
 
 namespace Oxik\OneApiBundle\Services;
 
-use Symfony\Component\DependencyInjection\ContainerAware;
-
 /**
  * The class Wrapper manage the import of infobip OneApi
  *
  * @author Manuel Raya <manuel@arrogance.es>
  */
-class Wrapper extends ContainerAware
+class Wrapper
 {
 
     /**
@@ -89,8 +87,7 @@ class Wrapper extends ContainerAware
      */
     public function setConfig($config)
     {
-        foreach ($config as $key => $value)
-        {
+        foreach ($config as $key => $value) {
             $this->$key = $value;
         }
 
@@ -132,8 +129,9 @@ class Wrapper extends ContainerAware
      */
     protected function resolveService($service, $scope, $args)
     {
-        if (!class_exists($scope.$service))
+        if (!class_exists($scope.$service)) {
             throw new \Exception("Error Processing Class: That class does not exists or can not be found.", 1);
+        }
             
         $class = new \ReflectionClass($scope.$service);
 
@@ -145,5 +143,4 @@ class Wrapper extends ContainerAware
 
         return $class->newInstanceArgs($args);
     }
-
 }

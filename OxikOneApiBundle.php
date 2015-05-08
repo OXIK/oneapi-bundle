@@ -36,5 +36,4 @@ class OxikOneApiBundle extends Bundle
     {
         parent::build($container);
     }
-
 }

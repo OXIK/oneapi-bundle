@@ -55,7 +55,7 @@ First include the OneApiBundle `Wrapper` service into your code and retrieve a n
 
 ```php
 $serviceWrapper = $this->get('oxik_one_api.wrapper');
-$smsClient = $serviceWrapper->getService('smsClient', true);
+$smsClient = $serviceWrapper->getService('SmsClient', true);
 ```
 
 The first argument is the class to initialize from OneApi, the second one are the arguments of the class (if true then username and password will be passed to the function, insert an array instead to set your own custom arguments).
