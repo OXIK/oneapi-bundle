@@ -8,13 +8,6 @@
     "homepage": "",
     "license": "Apache License 2.0",
     "require": {
-        "php": ">=5.3.3",
-        "ext-curl": "*",
-        "ext-gd" : "*",
-        "ext-sockets" : "*",
-        "ext-openssl" : "*",
-        "ext-pdo" : "*",
-        "ext-sqlite3" : "*",
         "symfony/symfony": "~2.3",
         "infobip/oneapi": "dev-master"
     },
