@@ -1,0 +1,36 @@
+{
+    "name": "oxik/one-api-bundle",
+    "type": "symfony-bundle",
+    "description": "One-Api Infobip to use in Symfony 2.3+",
+    "keywords": [
+        "Infobip"
+    ],
+    "homepage": "",
+    "license": "Apache License 2.0",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-curl": "*",
+        "ext-gd" : "*",
+        "ext-sockets" : "*",
+        "ext-openssl" : "*",
+        "ext-pdo" : "*",
+        "ext-sqlite3" : "*",
+        "symfony/symfony": "~2.3",
+        "infobip/oneapi": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Manuel Raya",
+            "email": "manuel@arrogance.es"
+        },
+        {
+            "name": "Oxik Studio",
+            "homepage": "http://www.oxik.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": { 
+            "Oxik\\OneApiBundle\\": ""
+        }
+    }
+}

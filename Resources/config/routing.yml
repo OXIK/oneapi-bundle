@@ -1,0 +1,3 @@
+oxik_one_api_homepage:
+    path:     /testing
+    defaults: { _controller: OxikOneApiBundle:Default:index }

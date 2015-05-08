@@ -1,0 +1,5 @@
+services:
+    oxik_one_api.wrapper:
+        class: Oxik\OneApiBundle\Services\Wrapper
+        calls:
+            - [ setConfig, ["%oxik_one_api%"]]
