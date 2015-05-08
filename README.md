@@ -14,7 +14,7 @@ Add this to your `composer.json` file.
     {
         "require": {
             ...
-            "infobip/oneapi": "dev-master"
+            "infobip/oneapi": "dev-master",
             "oxik/oneapibundle": "0.0.1"
         }
     }
