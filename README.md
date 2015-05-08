@@ -1,5 +1,4 @@
 # OneApiBundle for Symfony2
----
 ## What is OneApiBundle?
 It's a small symfony bundle that acts like a bridge between [infobip OneApi](https://github.com/infobip/oneapi-php) and your symfony project.
 
@@ -18,6 +17,21 @@ Add this to your `composer.json` file.
             "oxik/oneapibundle": "dev-master"
         }
     }
+```
+
+And to `AppKernel.php`
+
+```php
+class AppKernel extends Kernel
+{
+    public function registerBundles()
+    {
+        $bundles = array(
+            ...
+            new Oxik\OneApiBundle\OxikOneApiBundle(),
+        );
+    }
+}
 ```
 
 Add your username and password to `config.yml' file.
