@@ -3,12 +3,13 @@
     "type": "symfony-bundle",
     "description": "One-Api Infobip to use in Symfony 2.3+",
     "keywords": [
-        "Infobip"
+        "infobip"
     ],
     "homepage": "",
     "license": "Apache License 2.0",
     "require": {
-        "symfony/symfony": "~2.3",
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "~2.3",
         "infobip/oneapi": "dev-master"
     },
     "authors": [
